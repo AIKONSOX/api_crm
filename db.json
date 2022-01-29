@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nombre": "Manuel Gonzalo",
+      "empresa": "Microsoft",
+      "email": "manuel_g_92@hotmail.com",
+      "telefono": "6865729769",
+      "notas": "Le gusta mucho los videojuegos",
+      "id": 1
+    },
+    {
+      "nombre": "Karen Cecilia",
+      "empresa": "Disney",
+      "email": "karen_pop@hotmail.com",
+      "telefono": "6862511875",
+      "notas": "Le gusta mucho el anime",
+      "id": 2
+    },
+    {
+      "nombre": "David Terminel",
+      "empresa": "Warzone",
+      "email": "david@hotmail.com",
+      "telefono": "6861626240",
+      "notas": "Esta jugando COD Warzone",
+      "id": 3
+    }
+  ]
+}
