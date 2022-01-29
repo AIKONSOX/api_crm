@@ -30,7 +30,7 @@ const Formulario = ({ cliente, cargando }) => {
     //Función al hacer submit al formulario
     const handleSubmit = async (valores) => {
         try {
-            const url = cliente?.id ? `http://localhost:4000/clientes/${cliente.id}` : 'http://localhost:4000/clientes';
+            const url = cliente?.id ? `${import.meta.env.VITE_API_URL}/${cliente.id}` : import.meta.env.VITE_API_URL;
 
             const respuesta = await fetch(url, {
                 method: cliente?.id ? 'PUT' : 'POST',

@@ -11,6 +11,9 @@ import VerCliente from "./paginas/VerCliente";
 import NuevoCliente from "./paginas/NuevoCliente";
 
 function App() {
+
+console.log(import.meta.env);
+
   return (
     <BrowserRouter>
       <Routes>
